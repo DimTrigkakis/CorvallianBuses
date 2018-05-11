@@ -19,7 +19,12 @@
   </style>
 </head>
 <body>
-  <div id="cesiumContainer"></div>
+	<div id="toolbar">
+	<input type="button" class="cesium-button" value="Start/Clear route"	onclick="start_polygon()"/>
+	<input type="button"class="cesium-button"  value="Stop route" onclick="stop_polygon()"/>
+	</div>
+  <div id="cesiumContainer">
   <script src="./CorvallisBuses.js"></script>
+  </div>
 </body>
 </html>
